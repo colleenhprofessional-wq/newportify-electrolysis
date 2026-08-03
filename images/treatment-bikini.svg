@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <rect width="200" height="160" rx="8" fill="#fef9f0"/>
+  <!-- Abstract body outline (tasteful) -->
+  <path d="M70 20 Q65 60 68 100 Q70 130 75 150" stroke="#d4a373" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M130 20 Q135 60 132 100 Q130 130 125 150" stroke="#d4a373" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Hip curves -->
+  <path d="M70 20 Q100 15 130 20" stroke="#d4a373" stroke-width="2" fill="none"/>
+  <!-- Bikini line indicator (abstract) -->
+  <path d="M78 40 Q100 55 122 40" stroke="#2c6e49" stroke-width="1.5" stroke-dasharray="4 2" fill="none"/>
+  <!-- Treatment zone (abstract shape) -->
+  <ellipse cx="100" cy="60" rx="25" ry="20" fill="#2c6e49" opacity="0.1" stroke="#2c6e49" stroke-width="1" stroke-dasharray="3 2"/>
+  <!-- Privacy flower/abstract overlay -->
+  <circle cx="100" cy="60" r="12" fill="#f0fdf4" stroke="#2c6e49" stroke-width="1"/>
+  <path d="M100 48 L100 52 M100 68 L100 72 M88 60 L92 60 M108 60 L112 60" stroke="#2c6e49" stroke-width="1.5"/>
+  <!-- Sparkles -->
+  <path d="M145 50 L148 46 L151 50 L148 54 Z" fill="#2c6e49" opacity="0.6"/>
+  <path d="M150 80 L152 77 L154 80 L152 83 Z" fill="#2c6e49" opacity="0.4"/>
+  <!-- Label -->
+  <text x="60" y="130" font-family="sans-serif" font-size="10" fill="#2c6e49" font-weight="bold">Confidence</text>
+  <text x="60" y="142" font-family="sans-serif" font-size="10" fill="#2c6e49" font-weight="bold">Restored</text>
+</svg>

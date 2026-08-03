@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <rect width="200" height="160" rx="8" fill="#f0fdf4"/>
+  <!-- Back area (smooth) -->
+  <rect x="40" y="10" width="120" height="140" rx="20" fill="#fde8d8" stroke="#d4a373" stroke-width="1"/>
+  <!-- Spine -->
+  <line x1="100" y1="15" x2="100" y2="145" stroke="#d4a373" stroke-width="1" opacity="0.3" stroke-dasharray="4 3"/>
+  <!-- Smooth glow -->
+  <rect x="55" y="25" width="90" height="110" rx="15" fill="#fef9f0" opacity="0.4"/>
+  <!-- Sparkles -->
+  <path d="M65 40 L68 36 L71 40 L68 44 Z" fill="#2c6e49" opacity="0.5"/>
+  <path d="M130 50 L133 46 L136 50 L133 54 Z" fill="#2c6e49" opacity="0.6"/>
+  <path d="M70 90 L72 87 L74 90 L72 93 Z" fill="#2c6e49" opacity="0.4"/>
+  <path d="M135 100 L137 97 L139 100 L137 103 Z" fill="#2c6e49" opacity="0.5"/>
+  <path d="M90 130 L92 127 L94 130 L92 133 Z" fill="#2c6e49" opacity="0.4"/>
+  <!-- Checkmark -->
+  <circle cx="100" cy="75" r="20" fill="#2c6e49" opacity="0.1"/>
+  <path d="M90 75 L97 82 L112 67" stroke="#2c6e49" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#f0fdf4"/>
+  <!-- Sky -->
+  <rect x="0" y="0" width="400" height="150" rx="12" fill="#e0f2fe"/>
+  <!-- Sun -->
+  <circle cx="320" cy="50" r="25" fill="#fbbf24" opacity="0.8"/>
+  <!-- Bavarian-style building -->
+  <rect x="80" y="100" width="240" height="150" fill="#fef9f0" stroke="#8b6914" stroke-width="2"/>
+  <!-- Roof -->
+  <polygon points="60,100 200,40 340,100" fill="#8b4513" stroke="#5c2d0e" stroke-width="2"/>
+  <!-- Windows -->
+  <rect x="110" y="130" width="40" height="50" rx="4" fill="#87ceeb" stroke="#8b6914" stroke-width="1.5"/>
+  <rect x="180" y="130" width="40" height="50" rx="4" fill="#87ceeb" stroke="#8b6914" stroke-width="1.5"/>
+  <rect x="250" y="130" width="40" height="50" rx="4" fill="#87ceeb" stroke="#8b6914" stroke-width="1.5"/>
+  <!-- Window crosses -->
+  <line x1="130" y1="130" x2="130" y2="180" stroke="#8b6914" stroke-width="1"/>
+  <line x1="110" y1="155" x2="150" y2="155" stroke="#8b6914" stroke-width="1"/>
+  <line x1="200" y1="130" x2="200" y2="180" stroke="#8b6914" stroke-width="1"/>
+  <line x1="180" y1="155" x2="220" y2="155" stroke="#8b6914" stroke-width="1"/>
+  <line x1="270" y1="130" x2="270" y2="180" stroke="#8b6914" stroke-width="1"/>
+  <line x1="250" y1="155" x2="290" y2="155" stroke="#8b6914" stroke-width="1"/>
+  <!-- Door -->
+  <rect x="175" y="200" width="50" height="50" rx="4" fill="#5c2d0e" stroke="#3d1c06" stroke-width="1.5"/>
+  <circle cx="215" cy="225" r="3" fill="#d4a373"/>
+  <!-- Flower boxes -->
+  <rect x="108" y="178" width="44" height="8" rx="2" fill="#5c2d0e"/>
+  <circle cx="115" cy="176" r="4" fill="#ef4444"/>
+  <circle cx="125" cy="175" r="4" fill="#f472b6"/>
+  <circle cx="135" cy="176" r="4" fill="#ef4444"/>
+  <circle cx="145" cy="175" r="4" fill="#f472b6"/>
+  <rect x="248" y="178" width="44" height="8" rx="2" fill="#5c2d0e"/>
+  <circle cx="255" cy="176" r="4" fill="#ef4444"/>
+  <circle cx="265" cy="175" r="4" fill="#f472b6"/>
+  <circle cx="275" cy="176" r="4" fill="#ef4444"/>
+  <circle cx="285" cy="175" r="4" fill="#f472b6"/>
+  <!-- Ground/parking -->
+  <rect x="0" y="250" width="400" height="50" rx="0" fill="#d1d5db"/>
+  <!-- Parking indicator -->
+  <rect x="30" y="260" width="60" height="30" rx="4" fill="#2563eb"/>
+  <text x="42" y="282" font-family="sans-serif" font-size="16" fill="white" font-weight="bold">FREE</text>
+  <!-- Parking symbol -->
+  <rect x="310" y="260" width="60" height="30" rx="4" fill="#2563eb"/>
+  <text x="335" y="282" font-family="sans-serif" font-size="16" fill="white" font-weight="bold">P</text>
+  <!-- Sign -->
+  <rect x="140" y="65" width="120" height="25" rx="4" fill="#1b4332"/>
+  <text x="153" y="82" font-family="sans-serif" font-size="10" fill="white" font-weight="bold">OLD WORLD VILLAGE</text>
+</svg>

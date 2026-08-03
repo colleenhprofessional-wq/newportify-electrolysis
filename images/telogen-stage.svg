@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="12" fill="#fef2f2"/>
+  <!-- Skin surface -->
+  <rect x="0" y="60" width="200" height="4" fill="#d4a373" opacity="0.6"/>
+  <!-- Hair (loose, about to shed) -->
+  <path d="M100 15 L100 60" stroke="#6b7280" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <!-- Follicle wall (dormant, small) -->
+  <path d="M90 60 Q88 80 90 95 Q92 108 100 112 Q108 108 110 95 Q112 80 110 60" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1.5"/>
+  <!-- Club hair base -->
+  <ellipse cx="100" cy="90" rx="6" ry="5" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  <!-- Hair shaft (thin, loose) -->
+  <line x1="100" y1="60" x2="100" y2="85" stroke="#6b7280" stroke-width="2" opacity="0.5"/>
+  <!-- Dormant papilla -->
+  <ellipse cx="100" cy="135" rx="10" ry="6" fill="#d1d5db" opacity="0.5"/>
+  <!-- Zzz sleep indicators -->
+  <text x="125" y="80" font-family="sans-serif" font-size="12" fill="#9ca3af" font-weight="bold">Z</text>
+  <text x="135" y="70" font-family="sans-serif" font-size="10" fill="#9ca3af" font-weight="bold">z</text>
+  <text x="142" y="63" font-family="sans-serif" font-size="8" fill="#9ca3af" font-weight="bold">z</text>
+  <!-- Label -->
+  <text x="60" y="150" font-family="sans-serif" font-size="10" fill="#dc2626" font-weight="bold">DORMANT</text>
+  <!-- Inactive indicator -->
+  <circle cx="100" cy="112" r="4" fill="#d1d5db" stroke="#6b7280" stroke-width="1.5"/>
+</svg>

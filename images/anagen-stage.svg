@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="12" fill="#f0fdf4"/>
+  <!-- Skin surface -->
+  <rect x="0" y="60" width="200" height="4" fill="#d4a373" opacity="0.6"/>
+  <!-- Hair follicle -->
+  <path d="M100 20 L100 60" stroke="#1a1a2e" stroke-width="3" stroke-linecap="round"/>
+  <!-- Follicle wall -->
+  <path d="M85 60 Q80 100 82 130 Q84 155 100 170 Q116 155 118 130 Q120 100 115 60" fill="#e9c89b" stroke="#d4a373" stroke-width="1.5"/>
+  <!-- Inner root sheath -->
+  <path d="M90 60 Q88 100 90 130 Q92 150 100 160 Q108 150 110 130 Q112 100 110 60" fill="#faf8f5" stroke="#e9c89b" stroke-width="1"/>
+  <!-- Hair shaft in follicle -->
+  <line x1="100" y1="60" x2="100" y2="155" stroke="#1a1a2e" stroke-width="2.5"/>
+  <!-- Papilla (blood supply) -->
+  <ellipse cx="100" cy="170" rx="15" ry="10" fill="#ef4444" opacity="0.7"/>
+  <!-- Blood vessels -->
+  <path d="M85 175 Q70 180 60 185" stroke="#ef4444" stroke-width="1.5" opacity="0.5" fill="none"/>
+  <path d="M115 175 Q130 180 140 185" stroke="#ef4444" stroke-width="1.5" opacity="0.5" fill="none"/>
+  <!-- Active growth arrow -->
+  <path d="M130 40 L130 20 L125 25 M130 20 L135 25" stroke="#2c6e49" stroke-width="2" fill="none"/>
+  <!-- Label -->
+  <text x="140" y="42" font-family="sans-serif" font-size="10" fill="#2c6e49" font-weight="bold">GROWING</text>
+  <!-- Connected indicator -->
+  <circle cx="100" cy="170" r="4" fill="#22c55e" stroke="#166534" stroke-width="1.5"/>
+</svg>

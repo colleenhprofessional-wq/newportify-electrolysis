@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newportify Electrolysis - QR Code for Clients</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f5f1eb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .qr-container {
+            background: white;
+            border-radius: 20px;
+            padding: 50px 40px;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 1.8rem;
+            color: #1b4332;
+            margin-bottom: 8px;
+        }
+        h1 span {
+            color: #52b788;
+            font-weight: 400;
+        }
+        .tagline {
+            color: #6b6b7b;
+            margin-bottom: 30px;
+            font-size: 1rem;
+        }
+        .qr-wrapper {
+            background: white;
+            border: 3px solid #2c6e49;
+            border-radius: 16px;
+            padding: 20px;
+            display: inline-block;
+            margin-bottom: 24px;
+        }
+        #qrcode {
+            display: inline-block;
+        }
+        .url-display {
+            background: #f0fdf4;
+            border: 1px solid #52b788;
+            border-radius: 8px;
+            padding: 12px 20px;
+            margin-bottom: 24px;
+            font-size: 0.9rem;
+            color: #1b4332;
+            word-break: break-all;
+            font-weight: 600;
+        }
+        .info-section {
+            text-align: left;
+            background: #faf8f5;
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 20px;
+        }
+        .info-section h3 {
+            color: #1b4332;
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+        }
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 0;
+            color: #4a4a5a;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+        .info-item:last-child { border-bottom: none; }
+        .info-icon { font-size: 1.2rem; }
+        .print-btn {
+            margin-top: 24px;
+            background: #2c6e49;
+            color: white;
+            border: none;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .print-btn:hover {
+            background: #1b4332;
+        }
+        .fda-badge {
+            display: inline-block;
+            background: rgba(44,110,73,0.1);
+            color: #1b4332;
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 16px;
+        }
+        @media print {
+            body { background: white; }
+            .print-btn { display: none; }
+            .qr-container { box-shadow: none; border: 2px solid #2c6e49; }
+        }
+    </style>
+</head>
+<body>
+    <div class="qr-container">
+        <h1>Newportify<span>Electrolysis</span></h1>
+        <p class="tagline">Permanent Hair Removal for Every Skin Tone</p>
+        
+        <div class="qr-wrapper">
+            <div id="qrcode"></div>
+        </div>
+        
+        <div class="url-display" id="siteUrl">
+            Scan to visit our website
+        </div>
+
+        <div class="info-section">
+            <h3>Quick Info</h3>
+            <div class="info-item">
+                <span class="info-icon">📞</span>
+                <span>(949) 736-0963</span>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">✉️</span>
+                <span>info@newportify.com</span>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">📍</span>
+                <span>Old World Village, Huntington Beach</span>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">🅿️</span>
+                <span>Free Parking</span>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">💰</span>
+                <span>$45 / 15 minutes | Cash & Zelle</span>
+            </div>
+            <div class="info-item">
+                <span class="info-icon">🎓</span>
+                <span>Student special: $75/30min — bring 2 friends!</span>
+            </div>
+        </div>
+
+        <p class="fda-badge">✓ Only FDA-Approved Permanent Hair Removal</p>
+        
+        <button class="print-btn" onclick="window.print()">🖨️ Print This Card</button>
+    </div>
+
+    <script>
+        // Set your live site URL here once deployed
+        const siteUrl = "https://www.newportifyelectrolysis.com";
+        document.getElementById("siteUrl").textContent = siteUrl;
+        
+        // Load the SVG QR code
+        fetch('images/qr-code.svg')
+            .then(r => r.text())
+            .then(svg => {
+                document.getElementById("qrcode").innerHTML = svg;
+                // Resize the SVG
+                const svgEl = document.querySelector('#qrcode svg');
+                if (svgEl) {
+                    svgEl.setAttribute('width', '200');
+                    svgEl.setAttribute('height', '200');
+                }
+            })
+            .catch(() => {
+                // Fallback: use CDN QR library
+                const script = document.createElement('script');
+                script.src = 'https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js';
+                script.onload = () => {
+                    new QRCode(document.getElementById("qrcode"), {
+                        text: siteUrl,
+                        width: 200,
+                        height: 200,
+                        colorDark: "#1b4332",
+                        colorLight: "#ffffff",
+                        correctLevel: QRCode.CorrectLevel.H
+                    });
+                };
+                document.head.appendChild(script);
+            });
+    </script>
+</body>
+</html>

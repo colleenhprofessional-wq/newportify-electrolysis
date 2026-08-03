@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <rect width="200" height="160" rx="8" fill="#f0fdf4"/>
+  <!-- Back outline -->
+  <path d="M70 15 Q65 30 60 50 Q58 70 60 90 Q62 120 70 150" stroke="#d4a373" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M130 15 Q135 30 140 50 Q142 70 140 90 Q138 120 130 150" stroke="#d4a373" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Shoulders -->
+  <path d="M70 15 Q100 10 130 15" stroke="#d4a373" stroke-width="2" fill="none"/>
+  <!-- Back fill -->
+  <path d="M70 15 Q100 10 130 15 Q135 30 140 50 Q142 70 140 90 Q138 120 130 150 L70 150 Q62 120 60 90 Q58 70 60 50 Q65 30 70 15 Z" fill="#fde8d8" opacity="0.5"/>
+  <!-- Spine line -->
+  <path d="M100 20 L100 145" stroke="#d4a373" stroke-width="1" opacity="0.4" stroke-dasharray="4 3"/>
+  <!-- Treatment zone -->
+  <rect x="68" y="30" width="64" height="80" rx="20" fill="#2c6e49" opacity="0.1" stroke="#2c6e49" stroke-width="1" stroke-dasharray="3 2"/>
+  <!-- Sparkles (clear result) -->
+  <path d="M150 40 L153 36 L156 40 L153 44 Z" fill="#2c6e49" opacity="0.6"/>
+  <path d="M155 70 L157 67 L159 70 L157 73 Z" fill="#2c6e49" opacity="0.4"/>
+  <path d="M148 100 L150 97 L152 100 L150 103 Z" fill="#2c6e49" opacity="0.5"/>
+  <!-- Label -->
+  <text x="40" y="145" font-family="sans-serif" font-size="10" fill="#2c6e49" font-weight="bold">Clear &amp; Clean</text>
+</svg>

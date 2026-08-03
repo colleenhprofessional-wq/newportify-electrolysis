@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <rect width="200" height="160" rx="8" fill="#fef9f0"/>
+  <!-- Abstract treatment area representation -->
+  <ellipse cx="100" cy="80" rx="50" ry="45" fill="#fde8d8" stroke="#d4a373" stroke-width="1"/>
+  <!-- Dots representing hair (tasteful abstract) -->
+  <circle cx="75" cy="60" r="1.5" fill="#4a3728" opacity="0.6"/>
+  <circle cx="85" cy="55" r="1.5" fill="#4a3728" opacity="0.6"/>
+  <circle cx="95" cy="52" r="1.5" fill="#4a3728" opacity="0.6"/>
+  <circle cx="105" cy="52" r="1.5" fill="#4a3728" opacity="0.6"/>
+  <circle cx="115" cy="55" r="1.5" fill="#4a3728" opacity="0.6"/>
+  <circle cx="125" cy="60" r="1.5" fill="#4a3728" opacity="0.6"/>
+  <circle cx="80" cy="72" r="1.5" fill="#4a3728" opacity="0.5"/>
+  <circle cx="90" cy="68" r="1.5" fill="#4a3728" opacity="0.5"/>
+  <circle cx="100" cy="66" r="1.5" fill="#4a3728" opacity="0.5"/>
+  <circle cx="110" cy="68" r="1.5" fill="#4a3728" opacity="0.5"/>
+  <circle cx="120" cy="72" r="1.5" fill="#4a3728" opacity="0.5"/>
+  <circle cx="85" cy="85" r="1.5" fill="#4a3728" opacity="0.4"/>
+  <circle cx="95" cy="82" r="1.5" fill="#4a3728" opacity="0.4"/>
+  <circle cx="105" cy="82" r="1.5" fill="#4a3728" opacity="0.4"/>
+  <circle cx="115" cy="85" r="1.5" fill="#4a3728" opacity="0.4"/>
+  <circle cx="90" cy="97" r="1.5" fill="#4a3728" opacity="0.3"/>
+  <circle cx="100" cy="95" r="1.5" fill="#4a3728" opacity="0.3"/>
+  <circle cx="110" cy="97" r="1.5" fill="#4a3728" opacity="0.3"/>
+  <!-- Bikini line indicator -->
+  <path d="M60 45 Q100 35 140 45" stroke="#d4a373" stroke-width="1.5" stroke-dasharray="4 2" fill="none"/>
+</svg>

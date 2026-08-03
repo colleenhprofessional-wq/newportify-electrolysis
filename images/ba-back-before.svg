@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <rect width="200" height="160" rx="8" fill="#fef9f0"/>
+  <!-- Back area -->
+  <rect x="40" y="10" width="120" height="140" rx="20" fill="#fde8d8" stroke="#d4a373" stroke-width="1"/>
+  <!-- Spine -->
+  <line x1="100" y1="15" x2="100" y2="145" stroke="#d4a373" stroke-width="1" opacity="0.3" stroke-dasharray="4 3"/>
+  <!-- Hair (before) -->
+  <line x1="60" y1="30" x2="58" y2="23" stroke="#4a3728" stroke-width="1"/>
+  <line x1="75" y1="28" x2="74" y2="21" stroke="#4a3728" stroke-width="1"/>
+  <line x1="90" y1="25" x2="89" y2="18" stroke="#4a3728" stroke-width="1"/>
+  <line x1="110" y1="25" x2="111" y2="18" stroke="#4a3728" stroke-width="1"/>
+  <line x1="125" y1="28" x2="126" y2="21" stroke="#4a3728" stroke-width="1"/>
+  <line x1="140" y1="30" x2="142" y2="23" stroke="#4a3728" stroke-width="1"/>
+  <line x1="65" y1="50" x2="63" y2="43" stroke="#4a3728" stroke-width="1"/>
+  <line x1="80" y1="48" x2="79" y2="41" stroke="#4a3728" stroke-width="1"/>
+  <line x1="95" y1="46" x2="94" y2="39" stroke="#4a3728" stroke-width="1"/>
+  <line x1="110" y1="46" x2="111" y2="39" stroke="#4a3728" stroke-width="1"/>
+  <line x1="125" y1="48" x2="126" y2="41" stroke="#4a3728" stroke-width="1"/>
+  <line x1="60" y1="70" x2="58" y2="63" stroke="#4a3728" stroke-width="1"/>
+  <line x1="80" y1="68" x2="79" y2="61" stroke="#4a3728" stroke-width="1"/>
+  <line x1="120" y1="68" x2="121" y2="61" stroke="#4a3728" stroke-width="1"/>
+  <line x1="140" y1="70" x2="142" y2="63" stroke="#4a3728" stroke-width="1"/>
+  <line x1="70" y1="90" x2="68" y2="83" stroke="#4a3728" stroke-width="1"/>
+  <line x1="90" y1="88" x2="89" y2="81" stroke="#4a3728" stroke-width="1"/>
+  <line x1="110" y1="88" x2="111" y2="81" stroke="#4a3728" stroke-width="1"/>
+  <line x1="130" y1="90" x2="132" y2="83" stroke="#4a3728" stroke-width="1"/>
+  <line x1="75" y1="110" x2="73" y2="103" stroke="#4a3728" stroke-width="1"/>
+  <line x1="100" y1="108" x2="100" y2="101" stroke="#4a3728" stroke-width="1"/>
+  <line x1="125" y1="110" x2="127" y2="103" stroke="#4a3728" stroke-width="1"/>
+</svg>

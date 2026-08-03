@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <rect width="200" height="160" rx="8" fill="#fef9f0"/>
+  <!-- Leg skin area -->
+  <rect x="50" y="10" width="100" height="140" rx="30" fill="#fde8d8" stroke="#d4a373" stroke-width="1"/>
+  <!-- Visible hairs (before) -->
+  <line x1="70" y1="30" x2="68" y2="23" stroke="#4a3728" stroke-width="1"/>
+  <line x1="85" y1="25" x2="84" y2="18" stroke="#4a3728" stroke-width="1"/>
+  <line x1="100" y1="28" x2="100" y2="20" stroke="#4a3728" stroke-width="1"/>
+  <line x1="115" y1="25" x2="116" y2="18" stroke="#4a3728" stroke-width="1"/>
+  <line x1="130" y1="30" x2="132" y2="23" stroke="#4a3728" stroke-width="1"/>
+  <line x1="75" y1="50" x2="73" y2="43" stroke="#4a3728" stroke-width="1"/>
+  <line x1="90" y1="48" x2="89" y2="41" stroke="#4a3728" stroke-width="1"/>
+  <line x1="105" y1="46" x2="106" y2="39" stroke="#4a3728" stroke-width="1"/>
+  <line x1="120" y1="50" x2="122" y2="43" stroke="#4a3728" stroke-width="1"/>
+  <line x1="70" y1="70" x2="68" y2="63" stroke="#4a3728" stroke-width="1"/>
+  <line x1="85" y1="68" x2="84" y2="61" stroke="#4a3728" stroke-width="1"/>
+  <line x1="100" y1="66" x2="100" y2="59" stroke="#4a3728" stroke-width="1"/>
+  <line x1="115" y1="68" x2="116" y2="61" stroke="#4a3728" stroke-width="1"/>
+  <line x1="130" y1="70" x2="132" y2="63" stroke="#4a3728" stroke-width="1"/>
+  <line x1="75" y1="90" x2="73" y2="83" stroke="#4a3728" stroke-width="1"/>
+  <line x1="90" y1="88" x2="89" y2="81" stroke="#4a3728" stroke-width="1"/>
+  <line x1="105" y1="86" x2="106" y2="79" stroke="#4a3728" stroke-width="1"/>
+  <line x1="120" y1="90" x2="122" y2="83" stroke="#4a3728" stroke-width="1"/>
+  <line x1="80" y1="110" x2="78" y2="103" stroke="#4a3728" stroke-width="1"/>
+  <line x1="95" y1="108" x2="94" y2="101" stroke="#4a3728" stroke-width="1"/>
+  <line x1="110" y1="108" x2="111" y2="101" stroke="#4a3728" stroke-width="1"/>
+  <line x1="125" y1="110" x2="127" y2="103" stroke="#4a3728" stroke-width="1"/>
+</svg>

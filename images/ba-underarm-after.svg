@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <rect width="200" height="160" rx="8" fill="#f0fdf4"/>
+  <!-- Skin area (smooth) -->
+  <ellipse cx="100" cy="80" rx="60" ry="50" fill="#fde8d8" stroke="#d4a373" stroke-width="1"/>
+  <!-- Smooth glow -->
+  <ellipse cx="100" cy="80" rx="40" ry="30" fill="#fef9f0" opacity="0.5"/>
+  <!-- Sparkles indicating smooth result -->
+  <path d="M70 50 L73 46 L76 50 L73 54 Z" fill="#2c6e49" opacity="0.5"/>
+  <path d="M120 45 L123 41 L126 45 L123 49 Z" fill="#2c6e49" opacity="0.6"/>
+  <path d="M90 110 L92 107 L94 110 L92 113 Z" fill="#2c6e49" opacity="0.4"/>
+  <path d="M130 80 L132 77 L134 80 L132 83 Z" fill="#2c6e49" opacity="0.5"/>
+  <path d="M60 90 L62 87 L64 90 L62 93 Z" fill="#2c6e49" opacity="0.4"/>
+  <!-- Checkmark -->
+  <circle cx="100" cy="80" r="20" fill="#2c6e49" opacity="0.1"/>
+  <path d="M90 80 L97 87 L112 72" stroke="#2c6e49" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <rect width="200" height="160" rx="8" fill="#fef9f0"/>
+  <!-- Arm raised -->
+  <path d="M60 140 Q60 80 80 40 L90 30" stroke="#d4a373" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Body side -->
+  <path d="M90 140 Q95 120 100 100 Q105 80 110 60" stroke="#d4a373" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Skin area (underarm) -->
+  <ellipse cx="85" cy="70" rx="20" ry="30" fill="#fde8d8" stroke="#d4a373" stroke-width="1"/>
+  <!-- Treatment zone -->
+  <ellipse cx="85" cy="70" rx="14" ry="20" fill="#2c6e49" opacity="0.12" stroke="#2c6e49" stroke-width="1" stroke-dasharray="3 2"/>
+  <!-- Smooth result icon -->
+  <path d="M130 60 L133 56 L136 60 L133 64 Z" fill="#2c6e49" opacity="0.6"/>
+  <path d="M140 75 L142 72 L144 75 L142 78 Z" fill="#2c6e49" opacity="0.4"/>
+  <!-- Label -->
+  <text x="120" y="100" font-family="sans-serif" font-size="10" fill="#2c6e49" font-weight="bold">Smooth</text>
+  <text x="120" y="112" font-family="sans-serif" font-size="10" fill="#2c6e49" font-weight="bold">Results</text>
+</svg>

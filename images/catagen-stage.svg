@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="12" fill="#fefce8"/>
+  <!-- Skin surface -->
+  <rect x="0" y="60" width="200" height="4" fill="#d4a373" opacity="0.6"/>
+  <!-- Hair follicle (shorter) -->
+  <path d="M100 20 L100 60" stroke="#1a1a2e" stroke-width="3" stroke-linecap="round"/>
+  <!-- Follicle wall (shrinking) -->
+  <path d="M87 60 Q84 90 86 110 Q88 130 100 140 Q112 130 114 110 Q116 90 113 60" fill="#e9c89b" stroke="#d4a373" stroke-width="1.5"/>
+  <!-- Inner sheath detaching -->
+  <path d="M92 60 Q90 85 92 105 Q94 120 100 128 Q106 120 108 105 Q110 85 108 60" fill="#faf8f5" stroke="#e9c89b" stroke-width="1" stroke-dasharray="3 2"/>
+  <!-- Hair shaft -->
+  <line x1="100" y1="60" x2="100" y2="125" stroke="#1a1a2e" stroke-width="2.5"/>
+  <!-- Papilla (detaching) -->
+  <ellipse cx="100" cy="160" rx="12" ry="8" fill="#ef4444" opacity="0.4"/>
+  <!-- Detachment gap -->
+  <path d="M92 135 Q100 140 108 135" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="3 2" fill="none"/>
+  <!-- Shrinking arrows -->
+  <path d="M70 100 L78 100" stroke="#f59e0b" stroke-width="1.5" fill="none" marker-end="none"/>
+  <path d="M130 100 L122 100" stroke="#f59e0b" stroke-width="1.5" fill="none"/>
+  <!-- Label -->
+  <text x="125" y="95" font-family="sans-serif" font-size="10" fill="#d97706" font-weight="bold">SHRINKING</text>
+  <!-- Disconnected indicator -->
+  <circle cx="100" cy="140" r="4" fill="#f59e0b" stroke="#92400e" stroke-width="1.5"/>
+</svg>

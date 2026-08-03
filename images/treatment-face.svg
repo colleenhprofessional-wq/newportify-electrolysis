@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <rect width="200" height="160" rx="8" fill="#f0fdf4"/>
+  <!-- Simplified face -->
+  <ellipse cx="100" cy="80" rx="45" ry="55" fill="#fde8d8" stroke="#d4a373" stroke-width="1.5"/>
+  <!-- Hair -->
+  <path d="M55 60 Q65 30 100 25 Q135 30 145 60" fill="#5c3d2e"/>
+  <!-- Eyes -->
+  <circle cx="85" cy="70" r="5" fill="#4a3728"/>
+  <circle cx="115" cy="70" r="5" fill="#4a3728"/>
+  <!-- Nose -->
+  <path d="M97 82 Q100 90 103 82" stroke="#d4a373" stroke-width="1" fill="none"/>
+  <!-- Smile -->
+  <path d="M88 100 Q100 108 112 100" stroke="#c97676" stroke-width="1.5" fill="none"/>
+  <!-- Treatment zones highlighted -->
+  <rect x="82" y="90" width="36" height="10" rx="3" fill="#2c6e49" opacity="0.15" stroke="#2c6e49" stroke-width="0.8"/>
+  <rect x="80" y="108" width="40" height="16" rx="3" fill="#2c6e49" opacity="0.15" stroke="#2c6e49" stroke-width="0.8"/>
+  <!-- Sparkle marks for clean skin -->
+  <path d="M145 50 L148 46 L151 50 L148 54 Z" fill="#2c6e49" opacity="0.6"/>
+  <path d="M155 70 L157 67 L159 70 L157 73 Z" fill="#2c6e49" opacity="0.4"/>
+</svg>

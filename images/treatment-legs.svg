@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <rect width="200" height="160" rx="8" fill="#f0fdf4"/>
+  <!-- Leg outline -->
+  <path d="M80 10 Q78 50 76 80 Q74 110 72 150" stroke="#d4a373" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M110 10 Q112 50 114 80 Q116 110 118 150" stroke="#d4a373" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Leg fill -->
+  <path d="M80 10 Q78 50 76 80 Q74 110 72 150 L118 150 Q116 110 114 80 Q112 50 110 10 Z" fill="#fde8d8" opacity="0.7"/>
+  <!-- Treatment zone -->
+  <rect x="75" y="40" width="40" height="70" rx="15" fill="#2c6e49" opacity="0.1" stroke="#2c6e49" stroke-width="1" stroke-dasharray="3 2"/>
+  <!-- Sparkles -->
+  <path d="M135 50 L138 46 L141 50 L138 54 Z" fill="#2c6e49" opacity="0.6"/>
+  <path d="M140 80 L142 77 L144 80 L142 83 Z" fill="#2c6e49" opacity="0.4"/>
+  <path d="M130 110 L132 107 L134 110 L132 113 Z" fill="#2c6e49" opacity="0.5"/>
+  <!-- Label -->
+  <text x="125" y="130" font-family="sans-serif" font-size="10" fill="#2c6e49" font-weight="bold">Silky</text>
+  <text x="125" y="142" font-family="sans-serif" font-size="10" fill="#2c6e49" font-weight="bold">Smooth</text>
+</svg>

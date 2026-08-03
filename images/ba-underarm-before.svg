@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <rect width="200" height="160" rx="8" fill="#fef9f0"/>
+  <!-- Skin area -->
+  <ellipse cx="100" cy="80" rx="60" ry="50" fill="#fde8d8" stroke="#d4a373" stroke-width="1"/>
+  <!-- Visible hair (before) -->
+  <line x1="70" y1="55" x2="68" y2="48" stroke="#4a3728" stroke-width="1.2"/>
+  <line x1="80" y1="50" x2="78" y2="43" stroke="#4a3728" stroke-width="1.2"/>
+  <line x1="90" y1="48" x2="89" y2="40" stroke="#4a3728" stroke-width="1.2"/>
+  <line x1="100" y1="47" x2="100" y2="39" stroke="#4a3728" stroke-width="1.2"/>
+  <line x1="110" y1="48" x2="111" y2="40" stroke="#4a3728" stroke-width="1.2"/>
+  <line x1="120" y1="50" x2="122" y2="43" stroke="#4a3728" stroke-width="1.2"/>
+  <line x1="130" y1="55" x2="132" y2="48" stroke="#4a3728" stroke-width="1.2"/>
+  <line x1="75" y1="70" x2="72" y2="63" stroke="#4a3728" stroke-width="1"/>
+  <line x1="85" y1="65" x2="83" y2="58" stroke="#4a3728" stroke-width="1"/>
+  <line x1="95" y1="63" x2="94" y2="56" stroke="#4a3728" stroke-width="1"/>
+  <line x1="105" y1="63" x2="106" y2="56" stroke="#4a3728" stroke-width="1"/>
+  <line x1="115" y1="65" x2="117" y2="58" stroke="#4a3728" stroke-width="1"/>
+  <line x1="125" y1="70" x2="128" y2="63" stroke="#4a3728" stroke-width="1"/>
+  <line x1="80" y1="85" x2="78" y2="78" stroke="#4a3728" stroke-width="1"/>
+  <line x1="95" y1="80" x2="94" y2="73" stroke="#4a3728" stroke-width="1"/>
+  <line x1="105" y1="80" x2="106" y2="73" stroke="#4a3728" stroke-width="1"/>
+  <line x1="120" y1="85" x2="122" y2="78" stroke="#4a3728" stroke-width="1"/>
+  <!-- Shadow/stubble dots -->
+  <circle cx="85" cy="95" r="1" fill="#4a3728" opacity="0.4"/>
+  <circle cx="95" cy="98" r="1" fill="#4a3728" opacity="0.4"/>
+  <circle cx="105" cy="96" r="1" fill="#4a3728" opacity="0.4"/>
+  <circle cx="115" cy="95" r="1" fill="#4a3728" opacity="0.4"/>
+</svg>
