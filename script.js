@@ -50,32 +50,14 @@ const schedulingSystem = {
     },
 
     generateSlots() {
-        // Generate available slots for next 14 days
-        const today = new Date();
-        for (let i = 1; i <= 14; i++) {
-            const date = new Date(today);
-            date.setDate(today.getDate() + i);
-            
-            // Skip Sundays
-            if (date.getDay() === 0) continue;
-            
-            const dateKey = this.formatDateKey(date);
-            this.availableSlots[dateKey] = [];
-            
-            // Generate time slots (9am - 5pm, 1-hour blocks)
-            const startHour = 9;
-            const endHour = 17;
-            
-            for (let hour = startHour; hour < endHour; hour++) {
-                // Randomly mark some slots as unavailable for realism
-                const available = Math.random() > 0.3;
-                this.availableSlots[dateKey].push({
-                    time: `${hour > 12 ? hour - 12 : hour}:00 ${hour >= 12 ? 'PM' : 'AM'}`,
-                    hour: hour,
-                    available: available
-                });
-            }
-        }
+        // Available: Sunday, August 16, 11 AM - 2 PM
+        // 1-hour appointments with 10-minute breaks between
+        const dateKey = '2026-08-16'; // Sunday, August 16, 2026
+        this.availableSlots[dateKey] = [
+            { time: '11:00 AM', hour: 11, minute: 0, available: true },
+            { time: '12:10 PM', hour: 12, minute: 10, available: true },
+            { time: '1:20 PM', hour: 13, minute: 20, available: true }
+        ];
     },
 
     formatDateKey(date) {
@@ -92,14 +74,15 @@ const schedulingSystem = {
         const calendarContainer = document.getElementById('scheduling-calendar');
         if (!calendarContainer) return;
 
-        const dates = Object.keys(this.availableSlots).slice(0, 7);
+        const dates = Object.keys(this.availableSlots);
         
-        let html = '<div class="calendar-dates">';
+        let html = '<div class="calendar-header-info"><p><strong>Next Available Date:</strong> Sunday, August 16, 2026</p><p>11:00 AM – 2:00 PM | 1-hour sessions | 10-min breaks between appointments</p></div>';
+        html += '<div class="calendar-dates">';
         dates.forEach((date, index) => {
             const activeClass = index === 0 ? 'active' : '';
             html += `<button class="calendar-date-btn ${activeClass}" data-date="${date}">
-                <span class="date-day">${this.formatDateDisplay(date).split(',')[0]}</span>
-                <span class="date-num">${new Date(date + 'T12:00:00').getDate()}</span>
+                <span class="date-day">Sun</span>
+                <span class="date-num">Aug 16</span>
             </button>`;
         });
         html += '</div>';
@@ -107,7 +90,7 @@ const schedulingSystem = {
         html += '<div class="time-slots" id="time-slots"></div>';
         calendarContainer.innerHTML = html;
         
-        // Show first date's slots
+        // Show slots
         this.showTimeSlots(dates[0]);
     },
 
